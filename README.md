@@ -10,6 +10,7 @@ For instance, given the variables x and y, the constants 5 and 11, as well as th
 {"x":11,"y":10,"_out":110}
 {"x":2,"y":2,"_out":22}
 {"x":5,"y":19,"_out":25}
+
 The synthesizer will generate the following program: (if x < y then x*5 else y*11) as it satisfies the input-output pairs given.  
 
 Another example,  given the variables x and y, the constant 0, as well as the following input-output pairs below:
@@ -19,8 +20,8 @@ Another example,  given the variables x and y, the constant 0, as well as the fo
 {"x":-7, "y":-10, "_out":True}
 {"x":-20, "y":8, "_out":False}
 {"x":20, "y":-8, "_out":False}
-The synthesizer will generate the following program: ((x<0) and (y<0)) as it satisfies the input-output pairs given.  
 
+The synthesizer will generate the following program: ((x<0) and (y<0)) as it satisfies the input-output pairs given.  
 
 In Java, I modified the synthesizer into a bitwise synthesizer. This means the generator will only synthesize arithemetic programs using bitwise expressions. A list of examples can be found in the Java Driver file.
 
