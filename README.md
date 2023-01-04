@@ -6,14 +6,14 @@ Given a input-output list, the synthesizers will try to generate a program such 
 In Python, the synthesizer is more broad and can be used to generate boolean and arithmetic expressions to satisfy the input-output list.
 
 For instance, given the variables x and y, the constants 5 and 11, as well as the following input-output pairs below:
-{"x":10,"y":2, "_out":22}
+>{"x":10,"y":2, "_out":22}
 {"x":11,"y":10,"_out":110}
 {"x":2,"y":2,"_out":22}
 {"x":5,"y":19,"_out":25}
 The synthesizer will generate the following program: (if x < y then x*5 else y*11) as it satisfies the input-output pairs given.  
 
 Another example,  given the variables x and y, the constant 0, as well as the following input-output pairs below:
-{"x":2, "y":55, "_out":False}
+>{"x":2, "y":55, "_out":False}
 {"x":32, "y":3, "_out":False}
 {"x":-5, "y":-3, "_out":True}
 {"x":-7, "y":-10, "_out":True}
