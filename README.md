@@ -11,7 +11,7 @@ For instance, given the variables x and y, the constants 5 and 11, as well as th
 {"x":2,"y":2,"_out":22}
 {"x":5,"y":19,"_out":25}
 
-The synthesizer will generate the following program: (if x < y then x*5 else y*11) as it satisfies the input-output pairs given.  
+The synthesizer will generate the following program: (if x < y then x * 5 else y * 11) as it satisfies the input-output pairs given.  
 
 Another example,  given the variables x and y, the constant 0, as well as the following input-output pairs below:
 >{"x":2, "y":55, "_out":False}
