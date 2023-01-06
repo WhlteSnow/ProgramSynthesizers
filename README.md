@@ -1,5 +1,5 @@
 # ProgramSynthesizers
-The following codes in Java and Python are program synthesizers that use a bottom-up approach.
+The following codes in Java and Python are program synthesizers that use a bottom-up approach. Both synthesizers are built using an AST (Abstract Syntax Tree) structure.
 
 Given a input-output list, the synthesizers will try to generate a program such that it matches the desired input-output list. 
 
